@@ -1,6 +1,6 @@
 'use client'
 
-import Logo from '../../public/images/inTake.png'
+import Logo from '../../public/images/intake.png'
 import { Menu, X } from 'lucide-react'
 import Image from 'next/image'
 import Link from 'next/link'
