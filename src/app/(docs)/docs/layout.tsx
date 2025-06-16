@@ -28,10 +28,10 @@ export default function RootDocsLayout({ children }: { children: ReactNode }) {
             </svg>
           ),
           text: 'Discord',
-          url: 'https://discord.gg/5w7JUQYaAD',
+          url: 'https://discord.gg/EFHuanDbHQ',
         },
       ]}
-      githubUrl='https://github.com/akhil-naidu/inTake'
+      githubUrl='https://github.com/saashqdev/intake'
       sidebar={{
         collapsible: true,
         prefetch: false,

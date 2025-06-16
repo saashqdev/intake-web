@@ -73,7 +73,7 @@ export function Navbar({ className }: { className?: string }) {
         {/* Right Side (Discord + Sign In) */}
         <div className='hidden items-center gap-2 md:flex'>
           <Button
-            onClick={() => router.push('https://discord.gg/5w7JUQYaAD')}
+            onClick={() => router.push('https://discord.gg/EFHuanDbHQ')}
             variant={'outline'}
             className='hover:bg-card hover:text-foreground'>
             Discord
@@ -81,7 +81,7 @@ export function Navbar({ className }: { className?: string }) {
           <Button
             asChild
             className='animate-shimmer bg-[linear-gradient(110deg,#6B44C2,45%,#7F55E2,55%,#6B44C2)] bg-[length:200%_100%]'>
-            <Link href={'https://demo.inTake.sh'} target='_blank'>
+            <Link href={'https://demo.gointake.ca'} target='_blank'>
               View Demo
             </Link>
           </Button>
@@ -111,7 +111,7 @@ export function Navbar({ className }: { className?: string }) {
             About
           </Link>
           <Button
-            onClick={() => router.push('https://discord.gg/5w7JUQYaAD')}
+            onClick={() => router.push('https://discord.gg/EFHuanDbHQ')}
             variant={'outline'}
             className='w-full'>
             Discord
@@ -119,7 +119,7 @@ export function Navbar({ className }: { className?: string }) {
           <Button
             asChild
             className='w-full animate-shimmer bg-[linear-gradient(110deg,#6B44C2,45%,#7F55E2,55%,#6B44C2)] bg-[length:200%_100%]'>
-            <Link href={'https://demo.inTake.sh'} target='_blank'>
+            <Link href={'https://demo.gointake.ca'} target='_blank'>
               View Demo
             </Link>
           </Button>

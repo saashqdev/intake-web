@@ -37,12 +37,12 @@ export function HeroSection() {
             <Button
               asChild
               className='animate-shimmer bg-[linear-gradient(110deg,#6B44C2,45%,#7F55E2,55%,#6B44C2)] bg-[length:200%_100%]'>
-              <Link href={'https://demo.inTake.sh'} target='_blank'>
+              <Link href={'https://demo.gointake.ca'} target='_blank'>
                 View Demo
               </Link>
             </Button>
             <Button
-              onClick={() => router.push('https://discord.gg/5w7JUQYaAD')}
+              onClick={() => router.push('https://discord.gg/EFHuanDbHQ')}
               variant='outline'
               className='flex items-center gap-2 hover:bg-card hover:text-foreground'>
               <svg
