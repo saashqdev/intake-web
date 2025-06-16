@@ -1,7 +1,7 @@
+import NavTitle from '../components/NavTitle'
 import { DocsLayout } from 'fumadocs-ui/layout'
 import { Globe } from 'lucide-react'
 import type { ReactNode } from 'react'
-import NavTitle from '../components/NavTitle'
 
 import { pageTree } from './source'
 
@@ -14,7 +14,7 @@ export default function RootDocsLayout({ children }: { children: ReactNode }) {
         {
           icon: <Globe className='h-4 w-4' />,
           text: 'Website',
-          url: 'https://dFlow.sh',
+          url: 'https://gointake.ca',
         },
         {
           icon: (
@@ -31,7 +31,7 @@ export default function RootDocsLayout({ children }: { children: ReactNode }) {
           url: 'https://discord.gg/5w7JUQYaAD',
         },
       ]}
-      githubUrl='https://github.com/akhil-naidu/dFlow'
+      githubUrl='https://github.com/akhil-naidu/inTake'
       sidebar={{
         collapsible: true,
         prefetch: false,

@@ -1,6 +1,6 @@
 {
   "title": "docs",
-  "description": "Documentation for INTake",
+  "description": "Documentation for inTake",
   "keywords": ["inTake", "documentation", "docs"],
   "root": true,
   "pages": [
@@ -16,6 +16,6 @@
     "---Server---",
     "sshKeys",
     "(Git-Sources)",
-    "[Changelog](https://inTake.sh/changelog)"
+    "[Changelog](https://gointake.ca/changelog)"
   ]
 }

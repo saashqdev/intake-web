@@ -6,14 +6,14 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    question: 'What is dFlow?',
+    question: 'What is inTake?',
     answer:
-      'dFlow is a deployment platform that allows users to create projects, manage services, deploy applications, and configure servers with ease. It supports custom domains, monitoring, SSH key management, and GitHub integrations.',
+      'inTake is a deployment platform that allows users to create projects, manage services, deploy applications, and configure servers with ease. It supports custom domains, monitoring, SSH key management, and GitHub integrations.',
   },
   {
     question: 'Can I deploy from GitHub?',
     answer:
-      'Yes! You can connect your GitHub repository to dFlow and deploy applications directly. The platform supports automated deployments with GitHub Actions.',
+      'Yes! You can connect your GitHub repository to inTake and deploy applications directly. The platform supports automated deployments with GitHub Actions.',
   },
   {
     question: 'Can I use my own server?',
@@ -28,10 +28,10 @@ const faqs = [
   {
     question: 'Can I use a custom domain?',
     answer:
-      'Yes! dFlow allows you to configure and manage custom domains for your projects.',
+      'Yes! inTake allows you to configure and manage custom domains for your projects.',
   },
   {
-    question: 'Does dFlow offer monitoring?',
+    question: 'Does inTake offer monitoring?',
     answer:
       'Yes, real-time monitoring is available to track deployment logs, server health, and application performance.',
   },

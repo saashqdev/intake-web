@@ -34,7 +34,7 @@ const sections = [
   {
     title: '1. Introduction',
     content:
-      'This Privacy Policy explains how dFlow collects, uses, and protects your personal information.',
+      'This Privacy Policy explains how inTake collects, uses, and protects your personal information.',
   },
   {
     title: '2. Information We Collect',

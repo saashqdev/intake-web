@@ -1,11 +1,11 @@
-import Logo from '../../../../public/images/dFlow.png'
+import Logo from '../../../../public/images/inTake.png'
 import Image from 'next/image'
 
 export const NavTitle = () => {
   return (
     <div className='flex items-center gap-x-2 text-2xl font-semibold'>
-      <Image src={Logo} alt='dFlow Logo' height={40} width={40} />
-      dFlow
+      <Image src={Logo} alt='inTake Logo' height={40} width={40} />
+      inTake
     </div>
   )
 }
