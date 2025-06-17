@@ -14,11 +14,6 @@ export default function Footer() {
             className='text-sm font-medium transition duration-150 ease-in-out hover:text-primary'>
             Terms of Service
           </a>
-          <a
-            href='/contact'
-            className='text-sm font-medium transition duration-150 ease-in-out hover:text-primary'>
-            Contact
-          </a>
         </nav>
       </div>
     </footer>
