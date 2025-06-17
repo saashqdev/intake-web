@@ -2,39 +2,19 @@ import Image from 'next/image'
 
 const members = [
   {
-    name: 'Amar',
+    name: 'Dave',
     role: 'Founder',
-    avatar: '/images/team/amar.png',
+    avatar: '/images/team/dave.png',
   },
   {
-    name: 'Akhil Naidu',
-    role: 'CTO',
-    avatar: '/images/team/akhil.png',
-  },
-  {
-    name: 'Pavan',
+    name: 'Bill',
     role: 'Fullstack Dev',
-    avatar: '/images/team/pavan.png',
+    avatar: '/images/team/bill.png',
   },
   {
-    name: 'Manikanta',
-    role: 'Fullstack Dev',
-    avatar: '/images/team/manikanta.png',
-  },
-  {
-    name: 'Jagadeesh',
-    role: 'Fullstack Dev',
-    avatar: '/images/team/jagadeesh.png',
-  },
-  {
-    name: 'Lokesh',
+    name: 'Michele',
     role: 'Frontend Dev',
-    avatar: '/images/team/lokesh.png',
-  },
-  {
-    name: 'Charan',
-    role: 'Frontend Dev',
-    avatar: '/images/team/charan.png',
+    avatar: '/images/team/michele.png',
   },
 ]
 
