@@ -59,11 +59,6 @@ export function Navbar({ className }: { className?: string }) {
             Docs
           </Link>
           <Link
-            href={'/changelog'}
-            className='text-sm font-medium transition duration-150 ease-in-out hover:text-primary'>
-            Changelog
-          </Link>
-          <Link
             href={'/about'}
             className='text-sm font-medium transition duration-150 ease-in-out hover:text-primary'>
             About
@@ -103,9 +98,6 @@ export function Navbar({ className }: { className?: string }) {
           className='absolute left-0 top-full flex w-full flex-col items-center space-y-4 rounded-md border border-border bg-background p-5 shadow-md md:hidden'>
           <Link href='/' onClick={() => setMenuOpen(false)}>
             Docs
-          </Link>
-          <Link href='/changelog' onClick={() => setMenuOpen(false)}>
-            Changelog
           </Link>
           <Link href='/about' onClick={() => setMenuOpen(false)}>
             About
