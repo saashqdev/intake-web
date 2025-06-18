@@ -5,6 +5,7 @@ import domains from '/public/images/tab/domains.png'
 import github from '/public/images/tab/github.png'
 import logs from '/public/images/tab/logs.png'
 import servers from '/public/images/tab/servers.png'
+import services from '/public/images/tab/services.png'
 import Image, { StaticImageData } from 'next/image'
 
 import { Tabs } from '@/components/Tabs'
@@ -21,7 +22,7 @@ export function TabsSection() {
             Explore a suite of services designed to enhance your deployment
             workflow.
           </p>
-          <DummyContent src='/images/tab/services.webm' />
+          <DummyContent src={services} />
         </div>
       ),
     },
